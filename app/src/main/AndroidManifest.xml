@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mealzaimerproject.com.mealzaimer">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashsMEAlzheimer.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuInicialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gamesMEAlzheimer.ordemDoze.GamesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartActivity" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartScreenLoserActivity" />
+        <activity android:name=".sobreMimMEAlzheimer.EuActivity" />
+        <activity android:name=".FamiliaActivity" />
+        <activity android:name=".EmDesenvolvimentoActivity" />
+        <activity android:name=".gamesMEAlzheimer.ordemDoze.ordemDoze.GameOrdemStartWinActivity" />
+        <activity android:name=".controleRemedios.MenuInicioRemedios" />
+        <activity android:name=".controleRemedios.CadastroRemediosActivity" />
+        <activity android:name=".controleTarefas.InicioAtividadesActivity" />
+        <activity android:name=".controleTarefas.NovatarefaActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.InicioAnotacoesActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.NovaAnotacaoActivity" />
+        <activity android:name=".manualMEAlzheimer.ManualActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".controleRemedios.ListaAlergicosActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".sobreMimMEAlzheimer.SobreMimActivity" />
+        <activity android:name=".AtualizarInformacoesEuActivity" />
+        <activity android:name=".sobreMimMEAlzheimer.EditSobreMimActivity" />
+        <activity android:name=".CadastroPessoasActivity" />
+        <activity android:name=".MapasActivity" />
+        <activity android:name=".controleTarefas.NovaTarefaActivity" />
+        <activity android:name=".controleTarefas.NovaTarefaOneActivity" />
+        <activity android:name=".controleTarefas.NovaTarefaTwoActivity" />
+        <activity android:name=".controleTarefas.CadastrarNovaTarefaTwoActivity" />
+        <activity android:name=".controleRemedios.MenuInicioRemedioOneActivity" />
+        <activity android:name=".controleRemedios.CadastroRemedioTwoActivity" />
+        <activity android:name=".controleRemedios.MenuInicioRemediosTwoActivity" />
+        <activity android:name=".CadastroRemedioAlergicoActivity" />
+        <activity android:name=".controleRemedios.ListaAlergicosblankActivity" />
+        <activity android:name=".manualMEAlzheimer.Manual1Activity" />
+        <activity android:name=".manualMEAlzheimer.Manual2Activity" />
+        <activity android:name=".manualMEAlzheimer.ManualTresActivity" />
+        <activity android:name=".manualMEAlzheimer.ManualQuatroActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.AnotacaoUmActivity" />
+        <activity android:name=".anotacoesMEAlzheimer.AnotacaoUmSalvaActivity" />
+        <activity android:name=".manualMEAlzheimer.ManualCincoActivity" />
+        <activity android:name=".ManualSeisActivity" />
+        <activity android:name=".DicaActivity" />
+        <activity android:name=".DicaDoisActivity" />
+        <activity android:name=".DicaTresActivity" />
+        <activity android:name=".DicaQuatroActivity" />
+        <activity android:name=".DicaCincoActivity" />
+        <activity android:name=".PerfilPreenchidoActivity" />
+        <activity android:name=".MenuInicialPreenchidoActivity"></activity>
+    </application>
+
+</manifest>

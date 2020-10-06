@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">MEAlzheimer</string>
+    <string name="text_bv">BEM VINDO DIGITE SEU NOME ABAIXO</string>
+    <string name="versao_apk">Versão Preview 1.14 ©</string>
+    <string name="logo_principal">logo_principal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagemlogo">imagemLogo</string>
+    <string name="inputNome">Joao Carlos</string>
+    <string name="imgContinuar">imagemContinuar</string>
+    <string name="name_Eu">CARLOS DOS SANTOS\n </string>
+    <string name="name_Euu">CARLOS DOS SANTOS\n69  ANOS </string>
+    <string name="como_usar_o_app">COMO USAR O APP</string>
+    <string name="img_usuario">img_usuario</string>
+    <string name="img_qmsoueu">quem_eu</string>
+    <string name="minha_familia">minha_familia</string>
+    <string name="quem_sou_eu">QUEM SOU EU</string>
+    <string name="txt_familia">MINHA FAMILIA</string>
+    <string name="btnEnderecos">Meus Enderecos</string>
+    <string name="btnRemedios">ControledeRemedios</string>
+    <string name="imgRemedioAdd">img_add_remedio</string>
+    <string name="txtAddRemedios">Adicionar Remédios</string>
+    <string name="imgAlergicos">imgalergicos</string>
+    <string name="listaAlergicos">Lista De Alérgicos</string>
+    <string name="list_remedios">Lista de Remédios Cadastrados</string>
+    <string name="remedio_um">N° 1\n
+                               REMÉDIO: ALOIS\n
+                               TIPO: COMPRIMIDOS\n
+                               USO RECOMENDADO: 3 x AO  DIA\n
+                               HORÁRIOS: 7:00  -  14:00  -  22:00
+    </string>
+    <string name="radio_buton_notificacao">Alerta de\nHorários      </string>
+    <string name="remedio_dois">N° 2\n
+                               REMÉDIO: Sirdalud\n
+                               TIPO: em gotas\n
+                               USO RECOMENDADO: 3 x AO  DIA\n
+                               HORÁRIOS: 7:00  -  14:00  -  22:00</string>
+    <string name="alertaparauso">Alerta de Remédio</string>
+    <string name="btnexcluir">btnExcluir</string>
+    <string name="numero_tarefa">TAREFA N° 1 : Lavar a calçada da Casa\nHORÁRIOS: 08:00\nDIAS DA SEMANA:</string>
+    <string name="tarefa_dois">TAREFA N° 2 :  Dar comida aos cachorros\nhorários: 8:00  -  14:00 - 19:00\ndias da semana: </string>
+    <string name="tarefa_dois_finalizacao">TAREFA N° 2 :  Dar comida aos cachorros\nhorários: 8:00  -  14:00 - 19:00\ndias da semana: </string>
+    <string name="tarefa_um">TAREFA N° 1 : Lavar a calçada da Casa\nHORÁRIOS: 08:00\nDIAS DA SEMANA:</string>
+    <string name="tarefa_tres">TAREFA N° 3 : CAMINHAR\nhorários: 7:30  -  17:00\ndias da semana:</string>
+    <string name="central_tarefas">CENTRAL DE TAREFAS</string>
+    <string name="txtNovaTarefa">NOVA TAREFA</string>
+    <string name="cadastrar_nova_tarefa">CADASTRAR NOVA TAREFA</string>
+    <string name="img_novatarefa">img_novatarefa</string>
+    <string name="central_atividades" text="central de atividades" />
+    <string name="centralAtividades">CENTRAL DE ATIVIDADES</string>
+    <string name="ativarLembrete">ATIVAR LEMBRETES   </string>
+    <string name="seg">SEG</string>
+    <string name="ter">TER</string>
+    <string name="qua">QUA</string>
+    <string name="qui">QUI</string>
+    <string name="sex">SEX</string>
+    <string name="sab">SAB</string>
+    <string name="dom">DOM</string>
+    <string name="alergicoUm">N° 1 :\nREMÉDIO : PENICILINA\nTIPO : COMPRIMIDO</string>
+    <string name="textoQuemSouEu">Esta funcionalidade foi pensada para que você possa fazer um dossiê de diversas informações pessoais suas.
+                                  \n\nA função quem sou oferece as seguintes funcionalidades:\n\n
+                                  &#10149;	Você pode cadastrar diversas informações que podem te auxiliar caso voçê esqueça.\n\n
+                                  &#10149;	Você pode anexar uma foto ao seu perfil do MEalzheimer.\n\n
+                                  &#10149;	Você pode cadastrar Sua Música preferida e o estilo que ela pertence.\n\n
+                                  &#10149;	Você pode cadastrar comidas que você é alérgico.\n\n
+                                  &#10149; Você pode cadastrar suas comidas preferidas.\n\n
+                                  &#10149; Você pode cadastrar sua cor preferida.
+                                    </string>
+    <string name="textoMinhaFamilia">
+                                  Esta funcionalidade permite que você cadastre diversos amigos e parentes,auxiliando-o no reconhecimento dos mesmos.\n\n
+                                  &#10149;	Você pode cadastrar familiares.\n\n
+                                  &#10149;	Você incluir familiares em uma categoria.\n\n
+                                  &#10149;	Você pode cadastrar amigos.\n\n
+                                  &#10149;	Você pode incluir um amigo em uma categoria.\n\n
+                                  &#10149; Você pode consultar o nome e a idade de cada um já cadastrado.\n\n
+                                  &#10149; Você pode excluir um cadastrado.
+
+    </string>
+    <string name="textoEnderecos">
+                                  A função Meus Endereços Proporciona as seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar seu endereço.\n\n
+                                  &#10149;	Você pode anexar a foto do seu endereço.\n\n
+                                  &#10149;	Você pode cadastrar 2 endereços emergênciais de confiança.\n\n
+                                  &#10149;	Você pode direcionar a sua rota para o endereço mais próximo.\n\n
+                                  &#10149; Auxilia você, quando você esquecer o caminho de casa.\n\n
+                                  &#10149; Você pode excluir um cadastrado.\n\n
+                                  &#10149; Para utilizar esta funcionalidade é preciso que você ative o gps do seu celular, como demonstram as imagens abaixo.
+
+    </string>
+    <string name="textoRemedios">
+                                  A função Controle de Remédios Proporciona as seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar e excluir seus remédios.\n\n
+                                  &#10149;	Você pode cadastrar remédios que você é alérgico.\n\n
+                                  &#10149;	Você pode gerenciar os dias da semana que devem ser ingeridos.\n\n
+                                  &#10149;	Você pode ativar lembretes.\n\n
+    </string>
+    <string name="textoTarefas">  A função TAREFAS DO DIA-A-DIA PROPORCIONA AS seguinte funcões:\n\n
+                                  &#10149;	Você pode cadastrar DIVERSAS TAREFAS DO SEU DIA-A-DIA.\n\n
+                                  &#10149;	Você pode ALERTAS SOBRE A TAREFA CADASTRADA.\n\n
+                                  &#10149;	Você pode CADASTRAR OS DIAS DA SEMANA QUE AS TAREFAS DEVEM SER CONCLUIDA.\n\n
+                                  &#10149;	Você pode OS HORARIOS DE EXECUÇÃO DA TAREFA.\n\n
+    </string>
+    <string name="txtAtividades">O mal de Alzheimer leva à diminuição do mobilidade da pessoa, aumentando a dificuldade
+                                 para andar e manter o equilíbrio,que impossibilita a realização de forma autônoma das
+                                 atividades do dia a dia, como andar ou deitar-se, por exemplo.
+                                 Desta forma, a atividade física tem várias vantagens para o paciente com Alzheimer, como:\n
+
+                                 &#10149; Evitar dor nos músculos e articulações;\n
+                                 &#10149;Prevenir quedas e fraturas;\n
+                                 &#10149;Aumentar os movimentos peristálticos do intestino, facilitando a eliminação das fezes;\n
+                                 &#10149;Retardar que o paciente fique acamado.?\n
+
+                                 Deve-se fazer atividade física todos os dias, como caminhar ou fazer hidroginástica pelo menos 30
+                                 minutos todos os dias. Além disso, de acordo com a gravidade da doença, pode ser preciso fazer
+                                 sessões de fisioterapia para manter qualidade de vida. </string>
+    <string name="contatosocial">O paciente com Alzheimer deve manter contato com amigos e familiares para evitar o isolamento e a solidão,
+                                 que leva ao aumento da perda de capacidades cognitivas. Assim, é importante ir na padaria, passear no jardim 
+                                 ou estar presente no aniversários dos familiares, para conversar e interagir. 
+                                 No entanto, é importante estar em locais calmos, já que o barulho, pode aumentar o nível de confusão, 
+                                 deixando a pessoa mais agitada ou agressiva.</string>
+    <string name="txtCinco">LEMBRE-SE SEMPRE DE SE HIDRATAR.
+        Não só de líquidos é feita a hidratação. Alimentos ricos em água também ajudam a hidratar. Ofereça-os ao idoso ao longo do dia, principalmente          nos dias mais quentes. Boas opções são frutas como melancia, melão e laranja. Além disso, você pode oferecer gelatinas ou sopas, desde que estejam          de acordo com a dieta habitual da pessoa com Alzheimer.         Lembre-se: a desidratação pode piorar o estado de saúde geral do idoso e trazer outros problemas. Fique sempre atento à ingestão de líquidos da pessoa         com Alzheimer! Quanto à alimentação, é possível preparar receitas com ingredientes capazes de retardar o avanço da doença.</string>
+    <string name="nome">NOME COMPLETO:\nCARLOS DOS SANTOS\n\nIDADE:\n69 ANOS\n\nDATA DE NASCIMENTO:\n11/10/1949\n\nCOR PREFERIDA:\nVERMELHO\n\nCATEGORIA MÚSICAL:\nSERTANEJO\n\nMÚSICA PREFERIDA:\nCORAÇÃO CALEJADO - jORGE E MATHEUS\n\nCOMIDA PREFERIDA:\nFEIJOADA E PANQUECA\n\nALERGIA ALIMENTAR:\nCARNE DE SOJA
+                        </string>
+
+
+</resources>

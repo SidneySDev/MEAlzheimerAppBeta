@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/b_new"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="117dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/button_iniciar_jogo" />
+
+    <include
+        layout="@layout/buttonsordemstart"
+        android:layout_width="wrap_content"
+        android:layout_height="402dp"
+        android:layout_above="@+id/b_new"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnBola"
+        android:layout_width="82dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@android:color/transparent"
+        android:foregroundGravity="center"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/bola" />
+
+    <ImageButton
+        android:id="@+id/btnCoracao"
+        android:layout_width="100dp"
+        android:layout_height="69dp"
+        android:layout_alignTop="@+id/btnBola"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:foregroundGravity="center"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/coracao" />
+
+    <ImageButton
+        android:id="@+id/btnTrofeu"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:layout_alignTop="@+id/btnBola"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/trofeu" />
+
+    <TextView
+        android:id="@+id/selecaoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="Selecione um dos icones abaixo!" />
+
+</RelativeLayout>
